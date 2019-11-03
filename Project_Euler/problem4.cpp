@@ -12,7 +12,7 @@ int isPelindrome(int number);
 
 int main()
 {
-    int i, j, maxnumber, num;
+    int i, j, maxnumber = 0, num;
     for(i = 100; i <= 999 ; i++ )
     {
         for(j = 100; j <= 999; j++)
@@ -20,10 +20,7 @@ int main()
             num = i * j; 
             if(isPelindrome(num))
             {
-                if(maxnumber < num)
-                {
-                    maxnumber = num;
-                }
+                maxnumber = max(maxnumber, num);
             }
             
         }
