@@ -25,6 +25,7 @@ int main()
                 if(isTriplet(i, j, k) && (i + j + k == 1000))
                 {
                     cout << i << endl << j << endl << k << endl;
+                    cout << "Product is " << i * j * k << endl;
                 }
             }
         }
