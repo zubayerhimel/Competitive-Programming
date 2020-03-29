@@ -79,3 +79,10 @@ Logarithm is the inverse of the exponentiation.
 - Certain searching algorithms have logarithmic time complexity
 - Efficient sorting algorithms involve logarithms
 - Recursion somethimes involves logarithmic space complexity
+
+## Recap 
+- To analyze the performance of an algorithm, we use Big O Notation
+- Big O Notation can give us a high level understanding of the time or space complexity of an algorithm
+- Big O Notation doesn't care about precision, only about general trends
+- The time or space complexity depends only on the algorithm, not the hardware used to run the algorithm
+- Big O Notation is everywhere, so get lots of practice!
